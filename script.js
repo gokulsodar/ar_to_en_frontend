@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
         showStatus("Translating... Please wait.", "info");
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/translate-document/", {
+            const response = await fetch("https://ar-to-en.onrender.com/translate-document/", {
                 method: "POST",
                 body: formData,
             });
